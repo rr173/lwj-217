@@ -7,3 +7,4 @@ node_modules/
 # 训练记录
 训练记录.md
 *.xlsx
+__pycache__/

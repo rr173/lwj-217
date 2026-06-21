@@ -1,0 +1,11 @@
+services:
+  seed-trial:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - seed-trial-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  seed-trial-data:
